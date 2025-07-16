@@ -9,20 +9,20 @@ A RESTful API for managing events and user registrations using Node.js, Express,
 1. Clone the repository
    
    git clone https://github.com/Pathik04/event-management-api.git
-   cd event-management-api
+    event-management-api
 
 2. Install dependencies
 
-   bash
+
    npm install
    
 
 3. Set up environment variables
 
-   * Copy the example file and update values:
+Copy the example file and update values:
 
    
-     cp .env.example .env
+      .env
      
 
 4. Run the PostgreSQL migrations
