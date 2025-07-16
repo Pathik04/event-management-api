@@ -19,10 +19,21 @@ A RESTful API for managing events and user registrations using Node.js, Express,
 
 3. Set up environment variables
 
-Copy the example file and update values:
+Create an .env file and update values:
 
    
       .env
+
+ # Database configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=event_api
+DB_USER=your_db_user
+DB_PASS=your_db_password
+
+# Server port
+PORT=3000
+
      
 
 4. Run the PostgreSQL migrations
